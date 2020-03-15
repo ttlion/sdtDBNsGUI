@@ -28,7 +28,7 @@ The program, written in Python, uses several Python libraries/modules (which the
 - [sys](https://docs.python.org/3/library/sys.html), for using some specific methods of the Python interpreter
 - [os](https://docs.python.org/3/library/os.html), for using some capabilities of the Operating System directly from the Python program
 - [subprocess](https://docs.python.org/3/library/subprocess.html), for running command line arguments using the Python program
-- [webbrowser](https://docs.python.org/2/library/webbrowser.html), for opening webpages from the GUI
+- [webbrowser](https://docs.python.org/3/library/webbrowser.html), for opening webpages from the GUI
 - [re](https://docs.python.org/3/library/re.html), for making operations using regular expressions
 
 # How to use the sdtDBN GUI program?
