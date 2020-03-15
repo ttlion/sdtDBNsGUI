@@ -33,13 +33,37 @@ The program, written in Python, uses several Python libraries/modules (which the
 
 # How to use the sdtDBN GUI program?
 
-## Still to do this part, explain each menu
+## Still to finish this part, explain each menu
 
-## Menu 1
-
-Image is next:
+## Menu to learn an sdtDBN from user data
 
 ![Menu 1 of the GUI](Menu1_img.png)
+
+## Menu to retrieve an sdtDBN object stored in a file
+
+![Menu 1_1 of the GUI](Menu1_1_img.png)
+
+## Menu to get the graphical representation of a learned sdtDBN
+
+![Menu 1_2 of the GUI](Menu1_2_img.png)
+
+## Menu to insert the observation that will be used to make inference on a learned sdtDBN
+
+![Menu 2 of the GUI](Menu2_img.png)
+
+## Menu to predict the distribution of a selected attribute in a selected timestep for a defined id
+
+![Menu 3 of the GUI](Menu3_img.png)
+
+## Menu to predict the progression of one or all attributes for a defined id
+
+![Menu 4 of the GUI](Menu4_img.png)
+
+## Menu to make predictions for several ids
+
+![Menu 5 of the GUI - img 1](Menu5_img1.png)
+
+![Menu 5 of the GUI - img 2](Menu5_img2.png)
 
 
 <!---
