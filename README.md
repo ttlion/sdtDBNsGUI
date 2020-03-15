@@ -35,6 +35,13 @@ The program, written in Python, uses several Python libraries/modules (which the
 
 ## Still to do this part, explain each menu
 
+## Menu 1
+
+Image is next:
+
+![Menu 1 of the GUI](Menu1_img.png)
+
+
 <!---
 # References
 
