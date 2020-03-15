@@ -1,1 +1,8 @@
 theme: jekyll-theme-architect
+show_downloads: true
+github:
+  example_files: exampleFiles.zip
+  repository_url: https://github.com/ttlion/sdtDBNsGUI_code
+  tar_url: sources_sdtDBNsGUI.zip
+  gui_url_windows: sdtDBN_GUI_windows.zip
+  gui_url_Linux: sdtDBN_GUI_Linux.zip
