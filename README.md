@@ -35,28 +35,35 @@ The program, written in Python, uses several Python libraries/modules (which the
 
 # How to use the sdtDBN GUI program?
 
-The sdtDBNs GUI is composed by 7 tabs, each with its specific function in order to use the sdtDBNs capabilities. The general workflow of the sdtDBNs GUI using the developed tabs is the following.
+The sdtDBNs GUI is composed by 7 tabs, each with its specific function in order to use the sdtDBNs capabilities. The general workflow of the sdtDBNs GUI using the developed tabs is the following:
 
-1. To learn the sdtDBN, the user can use either the [first tab][1] or the [second tab][2]. The [first tab][1] should be used if the user wants to learn an sdtDBN from input files, whereas the [second tab][2] should be used if the user wants the retrieve an sdtDBN object already stored in a file.
+1. To learn an sdtDBN, the user can use either the [first tab][1] or the [second tab][2]. The [first tab][1] should be used if the user wants to learn an sdtDBN from input data/observations, whereas the [second tab][2] should be used if the user wants the retrieve an sdtDBN object previously learned and stored in a file.
 
 2. After learning an sdtDBN, the user might desire to get a graphical representation of the sdtDBN, for which the [third tab][3] should be used.
 
-3. To perform inference, some observations, for subjects/ids on which inference is to be made, must be given, which can be done in the [fourth tab][4].
+3. To perform inference, some observations of subjects/ids on which inference is to be made must be given, which can be done in the [fourth tab][4].
 
-4. After learning an sdtDBN and loading the observations for making inference, there are three inference modes the user can choose, each with in its specific tab:
+4. After learning an sdtDBN and loading the observations for making inference, there are three inference modes a user can choose, each with its specific tab:
    
-   1. If the user wants to know the probability distribution of a specific attribute in a specific timestep given the data of a specific subject/id, the [fifth tab][5] should be used.
+   1. If the user wants to know the probability distribution of a specific attribute in a specific timestep given the data of a particular subject/id, the [fifth tab][5] should be used.
    
-   2. If the user wants to, given the data of a specific subject/id, predict the progression of either all attributes or a specific attribute until a certain timestep, the [sixth tab][6] should be used.
+   2. If the user wants to, given the data of a specific subject/id, predict the progression of either all attributes or a particular attribute until a certain timestep, the [sixth tab][6] can be used.
    
-   3. If the user wants to make predictions for several subjects/ids, the [seventh tab][7] should be used.
+   3. If the user wants to make predictions for several subjects/ids, the [seventh tab][7] is the correct one.
 
 Given the general workflow described, the usage of each tab is described next.
 
 ## First tab: learning an sdtDBN from user data
 [1]: #first-tab-learning-an-sdtdbn-from-user-data
 
-![Menu 1 of the GUI](Menu1_img.png)
+When opening the tab, the GUI shows the following display:
+
+<p align="center">
+  <img alt="Tab 1 of GUI" src="Menu1_img.png">
+  <br>
+    <em>caption</em>
+</p>
+
 
 ## Second tab: retrieving an sdtDBN object stored in a file
 [2]: #second-tab-retrieving-an-sdtdbn-object-stored-in-a-file
