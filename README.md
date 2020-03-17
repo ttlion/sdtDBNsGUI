@@ -61,8 +61,20 @@ When opening the tab, the GUI shows the following display:
 <p align="center">
   <img alt="Tab 1 of GUI" src="Menu1_img.png">
   <br>
-    <em>caption</em>
+    <em>Tab 1 initial display</em>
 </p>
+
+To learn an sdtDBN using this first tab, the CSV files with observations must be given (if only given dynamic observations, the program will learn a [tDBN](http://josemonteiro.github.io/tDBN/), without static attributes). The CSV input files with dynamic and static observations must be in the format explained in the [sdtDBN webpage](https://ttlion.github.io/sdtDBN/#input-files-formats). The remaining parameters can be tuned according to the user needs. 
+
+For illustration, using, for learning, the same CSV files with observations as in the sdtDBN webpage ([example1_dynamic.csv](example1_dynamic.csv) and [example1_static.csv](example1_static.csv)) and tunning the parameters as in [Example 1 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example1-learning-a-learning-a-sdtdbn-with-dynamic-and-static-attributes), the following output is obtained by clicking **create sdtDBN**:
+
+<p align="center">
+  <img alt="Tab 1 of GUI - results" src="Menu1_img_1.png">
+  <br>
+    <em>Tab 1 after learning an sdtDBN</em>
+</p>
+
+The object of the learned sdtDBN is stored in a file (named *exampleFile.txt* in the example of the previous image). This file is created in the same directory of the sdtDBN GUI program and can be used to retrieve the learned sdtDBN afterwards, using the [second tab][2].
 
 
 ## Second tab: retrieving an sdtDBN object stored in a file
