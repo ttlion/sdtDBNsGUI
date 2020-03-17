@@ -134,7 +134,7 @@ When opening the fourth tab without having learned an sdtDBN either from the [fi
     <em>Tab 4 initial display</em>
 </p>
 
-&emsp;:warning: **As the field "*sdtDBN being used*" states by displaying "*No file yet selected*", an sdtDBN must be learned (using [first][1] or [second][2] tabs) before using this tab.** :warning:
+&emsp;:warning: **As the field "*sdtDBN being used*" states by displaying "*No file yet selected*", an sdtDBN must be learned (using the [first][1] or [second][2] tabs) before using this tab.** :warning:
 
 After learning an sdtDBN, the user should come to this tab, introduce the observations to use when making inference and click **Submit**, getting the following display:
 
@@ -160,7 +160,7 @@ When opening the fifth tab without having learned an sdtDBN (either from the [fi
     <em>Tab 5 initial display</em>
 </p>
 
-&emsp;:warning: **As the field "*sdtDBN being used*" states by displaying "*No file yet selected*", an sdtDBN must be learned (using [first][1] or [second][2] tabs) before using this tab.** :warning:
+&emsp;:warning: **As the field "*sdtDBN being used*" states by displaying "*No file yet selected*", an sdtDBN must be learned (using the [first][1] or [second][2] tabs) before using this tab.** :warning:
 
 &emsp;:warning: **As the field "*desired id*" states by displaying "*Inference observations not given!*", the observations to be used when making inference should be inserted (using the [fourth tab][4]) before using this tab.** :warning:
 
@@ -171,23 +171,48 @@ For example, if using the sdtDBN from the explanation of the [first tab][1] with
 <p align="center">
   <img alt="Tab 5 of GUI - results" src="Menu5_img_1.png">
   <br>
-    <em>Tab 5 specifying all parameters needed</em>
+    <em>Tab 5 after specifying all parameters needed</em>
 </p>
 
-This output is the same obtained when, in the [Example 2 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-2---inference-of-specific-attributes-on-a-learned-sdtdbn-with-dynamic-and-static-attributes), the distributions are determined.
+This output is the same obtained when, in [Example 2 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-2---inference-of-specific-attributes-on-a-learned-sdtdbn-with-dynamic-and-static-attributes), the distributions are determined.
 
 ## Sixth tab: predicting the progression of one or all attributes for a defined id
 [6]: #sixth-tab-predicting-the-progression-of-one-or-all-attributes-for-a-defined-id
 
 ![Menu 4 of the GUI](Menu6_img.png)
 
+Faço este depois porque vou ter que mudar umas coisas neste menu!!
+
 ## Seventh tab: making predictions for several ids
 [7]: #seventh-tab-making-predictions-for-several-ids
 
-![Menu 5 of the GUI - img 1](Menu7_img1.png)
+When opening the seventh tab without having learned an sdtDBN (either from the [first tab][1] or the [second tab][2]), and without having specified any observations to be used for inference (using the [fourth tab][4]) the GUI shows one of the two displays presented next, according to the selected mode of this seventh tab:
 
-![Menu 5 of the GUI - img 2](Menu7_img2.png)
+<p align="center" id="img_tab7_attInf">
+  <img alt="Tab 7 of GUI - att inf" src="Menu7_img1.png">
+  <br>
+    <em>Initial display of tab 7 in "attribute inference" mode</em>
+</p>
 
+<p align="center" id="img_tab7_prog">
+  <img alt="Tab 7 of GUI - prog until timestep" src="Menu7_img2.png">
+  <br>
+    <em>Initial display of tab 7 in "progression until timestep" mode</em>
+</p>
+
+&emsp;:warning: **As the field "*sdtDBN being used*" states by displaying "*No file yet selected*", an sdtDBN must be learned (using the [first][1] or [second][2] tabs) before using this tab.** :warning:
+
+&emsp;:warning: **As this tab concerns inference capabilities of the sdtDBN, the observations to be used when making inference should be inserted (using the [fourth tab][4]) before using this tab.** :warning:
+
+As already stated before, this seventh tab has two modes: "attribute inference" and "progression until timestep". Each mode functioning in detailed next. In both explanations, it is assumed that it was selected the sdtDBN from the explanation of the [first tab][1] with the observations for inference inserted in the [fourth tab][4].
+
+### Seventh tab in "attribute inference" mode
+
+In the attribute inference mode (see the [first image of this tab](img_tab7_attInf))
+
+### Seventh tab in "progression until timestep" mode
+
+aaaaa
 
 <!---
 # References
