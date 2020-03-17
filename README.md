@@ -46,17 +46,17 @@ The sdtDBNs GUI is composed by 7 tabs, each with its specific function in order 
 ## Still to finish this part, explain each menu
 
 ## Menu to learn an sdtDBN from user data
-[1]: ##menu-to-learn-an-sdtdbn-from-user-data
+[1]: #menu-to-learn-an-sdtdbn-from-user-data
 
 ![Menu 1 of the GUI](Menu1_img.png)
 
 ## Menu to retrieve an sdtDBN object stored in a file
-[2]: ##menu-to-retrieve-an-sdtdbn-object-stored-in-a-file
+[2]: #menu-to-retrieve-an-sdtdbn-object-stored-in-a-file
 
 ![Menu 1_1 of the GUI](Menu1_1_img.png)
 
 ## Menu to get the graphical representation of a learned sdtDBN
-[3]: ##menu-to-get-the-graphical-representation-of-a-learned-sdtdbn
+[3]: #menu-to-get-the-graphical-representation-of-a-learned-sdtdbn
 
 ![Menu 1_2 of the GUI](Menu1_2_img.png)
 
