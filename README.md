@@ -208,11 +208,11 @@ As already stated before, this seventh tab has two modes: "attribute inference" 
 
 ### Seventh tab in "attribute inference" mode
 
-In the attribute inference mode (see the [first image of this tab](img_tab7_attInf))
+In the "attribute inference mode" (see the [first image of this tab explanation](#img_tab7_attInf))
 
 ### Seventh tab in "progression until timestep" mode
 
-aaaaa
+In the "progression until timestep" mode (see the [second image of this tab explanation](#img_tab7_prog))
 
 <!---
 # References
