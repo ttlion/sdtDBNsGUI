@@ -56,7 +56,7 @@ Given the general workflow described, the usage of each tab is described next.
 ## First tab: learning an sdtDBN from user data
 [1]: #first-tab-learning-an-sdtdbn-from-user-data
 
-When opening the tab, the GUI shows the following display:
+When opening the first tab, the GUI shows the following display:
 
 <p align="center">
   <img alt="Tab 1 of GUI" src="Menu1_img.png">
@@ -76,11 +76,26 @@ For illustration, using, for learning, the same CSV files with observations as i
 
 The object of the learned sdtDBN is stored in a file (named *exampleFile.txt* in the example of the previous image). This file is created in the same directory of the sdtDBN GUI program and can be used to retrieve the learned sdtDBN afterwards, using the [second tab][2].
 
-
 ## Second tab: retrieving an sdtDBN object stored in a file
 [2]: #second-tab-retrieving-an-sdtdbn-object-stored-in-a-file
 
-![Menu 1_1 of the GUI](Menu1_1_img.png)
+When opening the second tab, the GUI shows the following display:
+
+<p align="center">
+  <img alt="Tab 2 of GUI" src="Menu1_1_img.png">
+  <br>
+    <em>Tab 2 initial display</em>
+</p>
+
+Following the example presented for the [first tab][1], the object with a learned sdtDBN can be loaded into the GUI program in this second tab. After loading the file and clicking **submit file**, the following output is obtained:
+
+<p align="center">
+  <img alt="Tab 2 of GUI - results" src="Menu1_1_img_1.png">
+  <br>
+    <em>Tab 2 after retrieving an sdtDBN object stored in a file</em>
+</p>
+
+This output presents the same sdtDBN learned in the [first tab][1].
 
 ## Third tab: getting the graphical representation of a learned sdtDBN
 [3]: #third-tab-getting-the-graphical-representation-of-a-learned-sdtdbn
