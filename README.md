@@ -41,38 +41,50 @@ The sdtDBNs GUI is composed by 7 tabs, each with its specific function in order 
 
 2. After learning an sdtDBN, the user might desire to get a graphical representation of the sdtDBN, for which the [third tab][3] should be used.
 
-3. Still todo: talk about other tabs...
+3. To perform inference, some observations, for subjects/ids on which inference is to be made, must be given, which can be done in the [fourth tab][4].
 
-## Still to finish this part, explain each menu
+4. After learning an sdtDBN and loading the observations for making inference, there are three inference modes the user can choose, each with in its specific tab:
+   
+   1. If the user wants to know the probability distribution of a specific attribute in a specific timestep given the data of a specific subject/id, the [fifth tab][5] should be used.
+   
+   2. If the user wants to, given the data of a specific subject/id, predict the progression of either all attributes or a specific attribute until a certain timestep, the [sixth tab][6] should be used.
+   
+   3. If the user wants to make predictions for several subjects/ids, the [seventh tab][7] should be used.
 
-## Menu to learn an sdtDBN from user data
-[1]: #menu-to-learn-an-sdtdbn-from-user-data
+Given the general workflow described, the usage of each tab is described next.
+
+## First tab: learning an sdtDBN from user data
+[1]: #first-tab-learning-an-sdtdbn-from-user-data
 
 ![Menu 1 of the GUI](Menu1_img.png)
 
-## Menu to retrieve an sdtDBN object stored in a file
-[2]: #menu-to-retrieve-an-sdtdbn-object-stored-in-a-file
+## Second tab: retrieving an sdtDBN object stored in a file
+[2]: #second-tab-retrieving-an-sdtdbn-object-stored-in-a-file
 
 ![Menu 1_1 of the GUI](Menu1_1_img.png)
 
-## Menu to get the graphical representation of a learned sdtDBN
-[3]: #menu-to-get-the-graphical-representation-of-a-learned-sdtdbn
+## Third tab: getting the graphical representation of a learned sdtDBN
+[3]: #third-tab-getting-the-graphical-representation-of-a-learned-sdtdbn
 
 ![Menu 1_2 of the GUI](Menu1_2_img.png)
 
-## Menu to insert the observation that will be used to make inference on a learned sdtDBN
+## Fourth tab: inserting the observation that will be used to make inference on a learned sdtDBN
+[4]: #fourth-tab-inserting-the-observation-that-will-be-used-to-make-inference-on-a-learned-sdtdbn
 
 ![Menu 2 of the GUI](Menu2_img.png)
 
-## Menu to predict the distribution of a selected attribute in a selected timestep for a defined id
+## Fifth tab: predicting the distribution of a selected attribute in a selected timestep for a defined id
+[5]: #fifth-tab-predicting-the-distribution-of-a-selected-attribute-in-a-selected-timestep-for-a-defined-id
 
 ![Menu 3 of the GUI](Menu3_img.png)
 
-## Menu to predict the progression of one or all attributes for a defined id
+## Sixth tab: predicting the progression of one or all attributes for a defined id
+[6]: #sixth-tab-predicting-the-progression-of-one-or-all-attributes-for-a-defined-id
 
 ![Menu 4 of the GUI](Menu4_img.png)
 
-## Menu to make predictions for several ids
+## Seventh tab: making predictions for several ids
+[7]: #seventh-tab-making-predictions-for-several-ids
 
 ![Menu 5 of the GUI - img 1](Menu5_img1.png)
 
