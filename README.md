@@ -17,6 +17,8 @@ For a user to be able to run the program without having to resort to the Python 
 - [Windows executable v.0.0.1](sdtDBN_GUI_windows.zip)
 - [Linux executable v.0.0.1](sdtDBN_GUI_Linux.zip)
 
+These executable versions were created, from the Python source code, using [PyInstaller](https://www.pyinstaller.org/).
+
 ## External libraries
 
 To generate images for the sdtDBNs, the GUI uses the DOT language. Therefore, if the user wants to use the GUI to create graphical representations of the created sdtDBNs (more details [here](#how-to-use-the-sdtdbn-gui-program)), Graphviz must be installed in the proper Operating System. Check [here](https://www.graphviz.org/download/) for more details on how to install Graphviz.
