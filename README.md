@@ -122,8 +122,8 @@ Providing as the sdtDBN the sdtDBN learned in the [first tab][1], the user would
 
 Besides being presented directly in the GUI (see previous image), the graphical representation of the learned sdtDBN is also stored in a PNG file (named *imgNameExample.png* in the example of the previous image). This file is created in the same directory of the sdtDBN GUI program. As the sdtDBN is the one from the [first tab explanation][1], the graphical representation of the sdtDBN is the same as the one obtained in [Example 1 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-1---learning-a-sdtdbn-with-dynamic-and-static-attributes).
 
-## Fourth tab: inserting the observation that will be used to make inference on a learned sdtDBN
-[4]: #fourth-tab-inserting-the-observation-that-will-be-used-to-make-inference-on-a-learned-sdtdbn
+## Fourth tab: inserting the observations that will be used to make inference on a learned sdtDBN
+[4]: #fourth-tab-inserting-the-observations-that-will-be-used-to-make-inference-on-a-learned-sdtdbn
 
 
 When opening the fourth tab without having learned an sdtDBN either from the [first tab][1] or the [second tab][2], the GUI shows the following display:
@@ -144,7 +144,7 @@ After learning an sdtDBN, the user should come to this tab, introduce the observ
     <em>Tab 4 after submitting the CSV files with the useful observations for making inference</em>
 </p>
 
-In the example provided in the previous image, the introduced files were the ones used in the [sdtDBN webpage](https://ttlion.github.io/sdtDBN/): [example2_dynamic_inf.csv.csv](example2_dynamic_inf.csv) and [example2_static_inf.csv.csv](example2_static_inf.csv). These files were used so that the explanations of the remaining tabs can relate to the examples presented in the [sdtDBN webpage](https://ttlion.github.io/sdtDBN/).
+In the example provided in the previous image, the introduced files were the ones used in the [sdtDBN webpage](https://ttlion.github.io/sdtDBN/): [example2_dynamic_inf.csv](example2_dynamic_inf.csv) and [example2_static_inf.csv](example2_static_inf.csv). These files were used so that the explanations of the remaining tabs can relate to the examples presented in the [sdtDBN webpage](https://ttlion.github.io/sdtDBN/).
 
 As stated in the explanation of the [first tab][1], the CSV input files with dynamic and static observations must be in the format explained in the [sdtDBN webpage](https://ttlion.github.io/sdtDBN/#input-files-formats).
 
@@ -152,7 +152,29 @@ As stated in the explanation of the [first tab][1], the CSV input files with dyn
 ## Fifth tab: predicting the distribution of a selected attribute in a selected timestep for a defined id
 [5]: #fifth-tab-predicting-the-distribution-of-a-selected-attribute-in-a-selected-timestep-for-a-defined-id
 
-![Menu 3 of the GUI](Menu5_img.png)
+When opening the fifth tab without having learned an sdtDBN (either from the [first tab][1] or the [second tab][2]), and without having specified any observations to be used for inference (using the [fourth tab][4]) the GUI shows the following display:
+
+<p align="center">
+  <img alt="Tab 5 of GUI" src="Menu5_img.png">
+  <br>
+    <em>Tab 5 initial display</em>
+</p>
+
+&emsp;:warning: **As the field "*sdtDBN being used*" states by displaying "*No file yet selected*", an sdtDBN must be learned (using [first][1] or [second][2] tabs) before using this tab.** :warning:
+
+&emsp;:warning: **As the field "*desired id*" states by displaying "*Inference observations not given!*", the observations to be used when making inference should be inserted (using the [fourth tab][4]) before using this tab.** :warning:
+
+After properly learning an sdtDBN and inserting the observations useful to inference, a user can select the several options of this tab to determine the probability distribution of an attribute in a certain timestep for a selected id.
+
+For example, if using the sdtDBN from the explanation of the [first tab][1] with the observations for inference inserted in the [fourth tab][4], and specifying **id=1**, **attribute=a** and **timestep=3**, the output would be the following:
+
+<p align="center">
+  <img alt="Tab 5 of GUI - results" src="Menu5_img_1.png">
+  <br>
+    <em>Tab 5 specifying all parameters needed</em>
+</p>
+
+This output is the same obtained when, in the [Example 2 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-2---inference-of-specific-attributes-on-a-learned-sdtdbn-with-dynamic-and-static-attributes), the distributions are determined.
 
 ## Sixth tab: predicting the progression of one or all attributes for a defined id
 [6]: #sixth-tab-predicting-the-progression-of-one-or-all-attributes-for-a-defined-id
