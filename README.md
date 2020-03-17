@@ -35,17 +35,28 @@ The program, written in Python, uses several Python libraries/modules (which the
 
 # How to use the sdtDBN GUI program?
 
+The sdtDBNs GUI is composed by 7 tabs, each with its specific function in order to use the sdtDBNs capabilities. The general workflow of the sdtDBNs GUI using the developed tabs is the following.
+
+1. To learn the sdtDBN, the user can use either the [first tab][1] or the [second tab][2]. The [first tab][1] should be used if the user wants to learn an sdtDBN from input files, whereas the [second tab][2] should be used if the user wants the retrieve an sdtDBN object already stored in a file.
+
+2. After learning an sdtDBN, the user might desire to get a graphical representation of the sdtDBN, for which the [third tab][3] should be used.
+
+3. Still todo: talk about other tabs...
+
 ## Still to finish this part, explain each menu
 
 ## Menu to learn an sdtDBN from user data
+[1]: ##menu-to-learn-an-sdtdbn-from-user-data
 
 ![Menu 1 of the GUI](Menu1_img.png)
 
 ## Menu to retrieve an sdtDBN object stored in a file
+[2]: ##menu-to-retrieve-an-sdtdbn-object-stored-in-a-file
 
 ![Menu 1_1 of the GUI](Menu1_1_img.png)
 
 ## Menu to get the graphical representation of a learned sdtDBN
+[3]: ##menu-to-get-the-graphical-representation-of-a-learned-sdtdbn
 
 ![Menu 1_2 of the GUI](Menu1_2_img.png)
 
