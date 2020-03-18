@@ -229,7 +229,20 @@ When making inference as shown in the previous image, the inference output is al
 
 ### Seventh tab in "progression until timestep" mode
 
-In the *"progression until timestep"* mode (see the [second image of this tab explanation](#img_tab7_prog))
+In the *"progression until timestep"* mode (see the [second image of this tab's explanation](#img_tab7_prog)), the user should define the desired estimation mode and the maximum timestep. The program will determine, for all subjects/ids, an estimated trajectory of all attributes until the defined maximum timestep.
+
+For illustration, selecting the desired estimation mode as **Most Probable** and the **maximum timestep=5**, the shown display is the following:
+
+<p align="center">
+  <img alt="Tab 7 of GUI - prog until timestep - after" src="Menu7_img2_1.png">
+  <br>
+    <em>Display of tab 7 in "progression until timestep" mode, after making inference</em>
+</p>
+
+The inference output presented in the previous image is the same output given in [Example 3 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-3---getting-an-estimated-trajectory).
+
+Just as in the other mode of the seventh tab, when making inference in the *"progression until timestep"* mode as shown in the previous image, the inference output is also saved in a file with the name provided by the user in the GUI (*exampleOut.csv* in the example of the previous image). This file is created in the same directory of the sdtDBN GUI program.
+
 
 <!---
 # References
