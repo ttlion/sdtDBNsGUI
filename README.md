@@ -64,18 +64,17 @@ When opening the first tab, the GUI shows the following display:
     <em>Tab 1 initial display</em>
 </p>
 
-To learn an sdtDBN using this first tab, the CSV files with observations must be given (if only given dynamic observations, the program will learn a [tDBN](http://josemonteiro.github.io/tDBN/), without static attributes). The CSV input files with dynamic and static observations must be in the format explained in [proper section of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#input-files-formats). The remaining parameters can be tuned according to the user needs. 
+To learn an sdtDBN using this first tab, the CSV files with observations must be given (if only given dynamic observations, the program will learn a [tDBN](http://josemonteiro.github.io/tDBN/), without static attributes). The CSV input files with dynamic and static observations must be in the format explained in the [proper section of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#input-files-formats). The remaining parameters can be tuned according to the user's needs. 
 
 For illustration, providing the following parameters:
-
-- *File with dynamic observations:* [example1_dynamic.csv](example1_dynamic.csv)
-- *File with static observations:* [example1_static.csv](example1_static.csv)
-- *Markov lag:* 1
-- *Max parents from past:* 1
-- *Max static parents:* 1
-- *Scoring Function:* Log-Likelihood(LL)
-- *Stationary sdtDBN?:* yes
-
+- **File with dynamic observations:** [example1_dynamic.csv](example1_dynamic.csv)
+- **File with static observations:** [example1_static.csv](example1_static.csv)
+- **Markov lag:** 1
+- **Max parents from past:** 1
+- **Max static parents:** 1
+- **Scoring Function:** Log-Likelihood (LL)
+- **Stationary sdtDBN?:** yes
+- **File to save the learned sdtDBN:** exampleFile.txt
 The output would be:
 
 <p align="center">
@@ -84,9 +83,9 @@ The output would be:
     <em>Tab 1 after learning an sdtDBN</em>
 </p>
 
-The obtained sdtDBN shown in the previous image is the same as in [Example 1 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-1---learning-a-sdtdbn-with-dynamic-and-static-attributes), as all the parameters are the same.
+The obtained sdtDBN shown in the previous image is the same one as in [Example 1 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-1---learning-a-sdtdbn-with-dynamic-and-static-attributes), as all the parameters are the same.
 
-The object of the learned sdtDBN is stored in a file (named *exampleFile.txt* in the example of the previous image). This file is created in the same directory of the sdtDBN GUI program and can be used to retrieve the learned sdtDBN afterwards, using the [second tab][2].
+The object of the learned sdtDBN is stored in a file (named exampleFile.txt in the example of the previous image). This file is created in the same directory of the sdtDBN GUI program and can be used to retrieve the learned sdtDBN afterwards, using the [second tab][2].
 
 ## Second tab: retrieving an sdtDBN object stored in a file
 [2]: #second-tab-retrieving-an-sdtdbn-object-stored-in-a-file
