@@ -14,7 +14,7 @@ The GUI was developed using Python, being all source files available [here](sour
 
 For a user to be able to run the program without having to resort to the Python programming language, there are available executable standalone versions of the program, for Windows and for Linux, both in version 0.0.1: 
 
-- [Windows executable v.0.0.1](sdtDBN_GUI_windows.zip)
+- [Windows executable v.0.0.1](sdtDBN_GUI_Windows.zip)
 - [Linux executable v.0.0.1](sdtDBN_GUI_Linux.zip)
 
 These executable versions were created, from the Python source code, using [PyInstaller](https://www.pyinstaller.org/).
