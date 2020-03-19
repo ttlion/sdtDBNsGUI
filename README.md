@@ -157,14 +157,14 @@ When opening the fourth tab without having learned an sdtDBN either from the [fi
     <em>Tab 4 initial display</em>
 </p>
 
-&emsp;:warning::warning::warning: **As the field "*sdtDBN being used*" states by displaying "*No file yet selected*", an sdtDBN must be learned (using the [first][1] or [second][2] tabs) before using this tab.** :warning::warning::warning:
+&emsp;:warning::warning::warning: *As the field **sdtDBN being used** states by displaying **No file yet selected**, an sdtDBN must be learned (using the [first][1] or [second][2] tabs) before using this tab.* :warning::warning::warning:
 
-After learning an sdtDBN, the user should come to this tab, introduce the observations to use when making inference and click **Submit**.
+After learning an sdtDBN, the user must come to this tab to introduce the observations that should be used when making inference.
 
 For example, inserting the following parameters:
-- *sdtDBN being used:* exampleFile.txt (inserted in [first tab][1])
-- *File with dynamic observations for inference*: [example2_dynamic_inf.csv](example2_dynamic_inf.csv)
-- *File with static observations for inference*: [example2_static_inf.csv](example2_static_inf.csv)
+- **sdtDBN being used:** exampleFile.txt (inserted in [first tab][1])
+- **File with dynamic observations for inference:** [example2_dynamic_inf.csv](example2_dynamic_inf.csv)
+- **File with static observations for inference:** [example2_static_inf.csv](example2_static_inf.csv)
 
 The output would be:
 
@@ -174,9 +174,9 @@ The output would be:
     <em>Tab 4 after submitting the CSV files with the useful observations for making inference</em>
 </p>
 
-In the example provided in the previous image, the introduced files were the ones used in the [sdtDBN webpage](https://ttlion.github.io/sdtDBN/). These files were used so that the explanations of the remaining tabs can relate to the examples presented in the [sdtDBN webpage](https://ttlion.github.io/sdtDBN/).
+In the example provided in the previous image, the introduced files were the ones used in the [sdtDBN webpage](https://ttlion.github.io/sdtDBN/), so that the explanations of the remaining tabs can relate to the examples presented in the [sdtDBN webpage](https://ttlion.github.io/sdtDBN/).
 
-As stated in the explanation of the [first tab][1], the CSV input files with dynamic and static observations must be in the format explained in the [sdtDBN webpage](https://ttlion.github.io/sdtDBN/#input-files-formats).
+As stated in the explanation of the [first tab][1], the CSV input files with dynamic and static observations must be in the [format explained in the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#input-files-formats).
 
 
 ## Fifth tab: predicting the distribution of a selected attribute in a selected timestep for a defined id
