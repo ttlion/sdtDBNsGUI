@@ -179,9 +179,22 @@ This output is the same obtained when, in [Example 2 of the sdtDBN webpage](http
 ## Sixth tab: predicting the progression of one or all attributes for a defined id
 [6]: #sixth-tab-predicting-the-progression-of-one-or-all-attributes-for-a-defined-id
 
-![Menu 4 of the GUI](Menu6_img.png)
+Tenho ainda que escrever texto sobre isto amanhã, mas as imagens já estão tiradas:
 
-Faço este depois porque vou ter que mudar umas coisas neste menu!!
+Imagem inicial:
+<p align="center">
+  <img alt="Tab 6 of GUI" src="Menu6_img.png">
+  <br>
+    <em>Tab 6 initial display</em>
+</p>
+
+Imagem após inferencia:
+<p align="center">
+  <img alt="Tab 6 of GUI - results" src="Menu6_img_1.png">
+  <br>
+    <em>Tab 6 after specifying all parameters needed</em>
+</p>
+
 
 ## Seventh tab: making predictions for several ids
 [7]: #seventh-tab-making-predictions-for-several-ids
