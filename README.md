@@ -194,7 +194,7 @@ When opening the fifth tab without having learned an sdtDBN (either from the [fi
 
 &emsp;:warning::warning::warning: *As the field **Desired id** states by displaying **Inference observations not given!**, the observations to be used when making inference should be inserted (using the [fourth tab][4]) before using this tab.* :warning::warning::warning:
 
-After properly learning an sdtDBN and inserting the observations useful for inference, a user can select the several options of this tab to determine the probability distribution of an attribute in a certain timestep for a selected id.
+After properly learning an sdtDBN and inserting the useful observations for inference, a user can select the several options of this tab to determine the probability distribution of an attribute in a certain timestep for a selected id.
 
 For example, introducing the following arguments:
 - **sdtDBN being used:** exampleFile.txt (inserted in [first tab][1])
