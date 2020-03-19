@@ -51,7 +51,7 @@ The sdtDBNs GUI is composed by 7 tabs, each with its specific function in order 
    
    3. If the user wants to make predictions for several subjects/ids, the [seventh tab][7] is the correct one.
 
-Given the general workflow described, the usage of each tab is described next.
+Given the general workflow described, the usage of each tab is described next. Throughout the explanations, several input files are used, being these files the ones used in the examples of sdtDBN webpage (to relate the several examples to the ones given in the sdtDBN webpage). The used files can be downloaded by clicking on their names or at the side of the webpage, where there is a zip file with all input files used.
 
 ## First tab: learning an sdtDBN from user data
 [1]: #first-tab-learning-an-sdtdbn-from-user-data
@@ -179,21 +179,29 @@ This output is the same obtained when, in [Example 2 of the sdtDBN webpage](http
 ## Sixth tab: predicting the progression of one or all attributes for a defined id
 [6]: #sixth-tab-predicting-the-progression-of-one-or-all-attributes-for-a-defined-id
 
-Tenho ainda que escrever texto sobre isto amanhã, mas as imagens já estão tiradas:
+When opening the sixth tab without having learned an sdtDBN (either from the [first tab][1] or the [second tab][2]), and without having specified any observations to be used for inference (using the [fourth tab][4]) the GUI shows the following display:
 
-Imagem inicial:
 <p align="center">
   <img alt="Tab 6 of GUI" src="Menu6_img.png">
   <br>
     <em>Tab 6 initial display</em>
 </p>
 
-Imagem após inferencia:
+&emsp;:warning::warning::warning: **As the field "*sdtDBN being used*" states by displaying "*No file yet selected*", an sdtDBN must be learned (using the [first][1] or [second][2] tabs) before using this tab.** :warning::warning::warning:
+
+&emsp;:warning::warning::warning: **As the field "*desired id*" states by displaying "*Inference observations not given!*", the observations to be used when making inference should be inserted (using the [fourth tab][4]) before using this tab.** :warning::warning::warning:
+
+After properly learning an sdtDBN and inserting the observations useful to inference, a user can select the several options of this tab to determine a trajectory of either a specific attribute or all attributes, until a certain timestep, given the data of a certain subject/id.
+
+For example, if using the sdtDBN from the explanation of the [first tab][1] with the observations for inference inserted in the [fourth tab][4], when specifying, for **id=3**, **maximum timestep=5** and estimating values using always the **most probable** value of each distribution, the output would be the following:
+
 <p align="center">
   <img alt="Tab 6 of GUI - results" src="Menu6_img_1.png">
   <br>
     <em>Tab 6 after specifying all parameters needed</em>
 </p>
+
+The trajectory obtained in the previous image is the same obtained in [Example 3 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-3---getting-an-estimated-trajectory) for the subject 3, as all parameters specified are the same.
 
 
 ## Seventh tab: making predictions for several ids
