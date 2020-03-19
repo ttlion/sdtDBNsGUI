@@ -223,18 +223,18 @@ When opening the sixth tab without having learned an sdtDBN (either from the [fi
     <em>Tab 6 initial display</em>
 </p>
 
-&emsp;:warning::warning::warning: **As the field "*sdtDBN being used*" states by displaying "*No file yet selected*", an sdtDBN must be learned (using the [first][1] or [second][2] tabs) before using this tab.** :warning::warning::warning:
+&emsp;:warning::warning::warning: *As the field **sdtDBN being used** states by displaying **No file yet selected**, an sdtDBN must be learned (using the [first][1] or [second][2] tabs) before using this tab.* :warning::warning::warning:
 
-&emsp;:warning::warning::warning: **As the field "*desired id*" states by displaying "*Inference observations not given!*", the observations to be used when making inference should be inserted (using the [fourth tab][4]) before using this tab.** :warning::warning::warning:
+&emsp;:warning::warning::warning: *As the field **Desired id** states by displaying **Inference observations not given!**, the observations to be used when making inference should be inserted (using the [fourth tab][4]) before using this tab.* :warning::warning::warning:
 
-After properly learning an sdtDBN and inserting the observations useful to inference, a user can select the several options of this tab to determine a trajectory of either a specific attribute or all attributes, until a certain timestep, given the data of a certain subject/id.
+After properly learning an sdtDBN and inserting the useful observations for inference, the several options of this tab allow a user to determine a trajectory, until a certain timestep, of either a specific attribute or all attributes, given the data of a defined subject/id.
 
 For example, introducing the following arguments:
-- *sdtDBN being used:* exampleFile.txt (inserted in [first tab][1])
-- *Desired id:* 3
-- *Desired attribute:* all
-- *Maximum timestep:* 5
-- *Desired estimation mode:* Most Probable
+- **sdtDBN being used:** exampleFile.txt (inserted in [first tab][1])
+- **Desired id:** 3
+- **Desired attribute:** all
+- **Maximum timestep:** 5
+- **Desired estimation mode:** Most Probable
 
 And having inserted the observations for inference detailed in the explanation of the [fourth tab][4], the output would be:
 
@@ -244,7 +244,7 @@ And having inserted the observations for inference detailed in the explanation o
     <em>Tab 6 after specifying all parameters needed</em>
 </p>
 
-The trajectory obtained in the previous image is the same obtained in [Example 3 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-3---getting-an-estimated-trajectory) for the subject 3, as all parameters specified are the same.
+The trajectory obtained in the previous image is the same as the one obtained in [Example 3 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-3---getting-an-estimated-trajectory) for subject 3, as all parameters specified are the same.
 
 
 ## Seventh tab: making predictions for several ids
