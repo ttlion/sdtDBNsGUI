@@ -67,6 +67,7 @@ When opening the first tab, the GUI shows the following display:
 To learn an sdtDBN using this first tab, the CSV files with observations must be given (if only given dynamic observations, the program will learn a [tDBN](http://josemonteiro.github.io/tDBN/), without static attributes). The CSV input files with dynamic and static observations must be in the format explained in the [proper section of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#input-files-formats). The remaining parameters can be tuned according to the user's needs. 
 
 For illustration, providing the following parameters:
+
 - **File with dynamic observations:** [example1_dynamic.csv](example1_dynamic.csv)
 - **File with static observations:** [example1_static.csv](example1_static.csv)
 - **Markov lag:** 1
@@ -75,6 +76,7 @@ For illustration, providing the following parameters:
 - **Scoring Function:** Log-Likelihood (LL)
 - **Stationary sdtDBN?:** yes
 - **File to save the learned sdtDBN:** exampleFile.txt
+- 
 The output would be:
 
 <p align="center">
