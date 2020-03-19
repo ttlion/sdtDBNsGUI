@@ -76,7 +76,7 @@ For illustration, providing the following parameters:
 - **Scoring Function:** Log-Likelihood (LL)
 - **Stationary sdtDBN?:** yes
 - **File to save the learned sdtDBN:** exampleFile.txt
-- 
+
 The output would be:
 
 <p align="center">
