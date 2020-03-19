@@ -274,7 +274,7 @@ In the **Progression until timestep** mode, the initial display would be the fol
 
 As already stated, this seventh tab has two modes: **Attribute inference** and **Progression until timestep**. Each mode functioning is detailed next.
 
-### Seventh tab -- Attribute inference mode
+### Seventh tab — Attribute inference mode
 
 In the **Attribute inference** mode (see the [first image of this tab's explanation](#img_tab7_attInf)), besides choosing among the available estimation modes (see [Example 2 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-2---inference-of-specific-attributes-on-a-learned-sdtdbn-with-dynamic-and-static-attributes) for details on the three available modes), the user must introduce a file with the variables in which inference is to be made. This file must be a CSV file in the format described at the [proper section of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#file-with-variables-and-respective-timesteps-to-make-inference).
 
@@ -298,7 +298,7 @@ The inference output presented in the previous image is the same output given in
 When making inference as shown in the previous image, the inference output is also saved in a file with the name provided by the user in the GUI (exampleOut.csv in the example of the previous image). This file is created in the same directory of the sdtDBN GUI program.
 
 
-### Seventh tab -- Progression until timestep mode
+### Seventh tab — Progression until timestep mode
 
 In the *"progression until timestep"* mode (see the [second image of this tab's explanation](#img_tab7_prog)), the user should define the desired estimation mode and the maximum timestep. The program will determine, for all subjects/ids in the observation files given in the [fourth tab][4], an estimated trajectory of all attributes until the defined maximum timestep.
 
