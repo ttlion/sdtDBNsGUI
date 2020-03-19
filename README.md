@@ -276,7 +276,7 @@ As already stated, this seventh tab has two modes: **Attribute inference** and *
 
 ### Seventh tab — Attribute inference mode
 
-In the **Attribute inference** mode (see the [first image of this tab's explanation](#img_tab7_attInf)), besides choosing among the available estimation modes (see [Example 2 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-2---inference-of-specific-attributes-on-a-learned-sdtdbn-with-dynamic-and-static-attributes) for details on the three available modes), the user must introduce a file with the variables in which inference is to be made. This file must be a CSV file in the format described at the [proper section of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#file-with-variables-and-respective-timesteps-to-make-inference).
+In the **Attribute inference** mode (see the [first image of this tab's explanation](#img_tab7_attInf)), besides choosing among the available estimation modes (see [Example 2 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-2---inference-of-specific-attributes-on-a-learned-sdtdbn-with-dynamic-and-static-attributes) for details on the three available modes), the user must introduce a file with the variables in which inference is to be made. This file must be a CSV file in the format described at the [proper section of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#file-with-variables-and-respective-timesteps-to-make-inference). The program will provide, for all subjects/ids in the observation files given in the [fourth tab][4], estimations for the attributes selected in the previously mentioned CSV file with the variables in which inference is to be made.
 
 For illustration, introducing the following arguments:
 - **sdtDBN being used:** exampleFile.txt (inserted in [first tab][1])
@@ -300,26 +300,26 @@ When making inference as shown in the previous image, the inference output is al
 
 ### Seventh tab — Progression until timestep mode
 
-In the *"progression until timestep"* mode (see the [second image of this tab's explanation](#img_tab7_prog)), the user should define the desired estimation mode and the maximum timestep. The program will determine, for all subjects/ids in the observation files given in the [fourth tab][4], an estimated trajectory of all attributes until the defined maximum timestep.
+In the **Progression until timestep** mode (see the [second image of this tab's explanation](#img_tab7_prog)), the user should define the desired estimation mode and the maximum timestep. The program will determine, for all subjects/ids in the observation files given in the [fourth tab][4], an estimated trajectory of all attributes until the defined maximum timestep.
 
 For instance, introducing the following arguments:
-- *sdtDBN being used:* exampleFile.txt (inserted in [first tab][1])
-- *Desired mode:* Progression until timestep
-- *Desired estimation mode:* Most Probable
-- *Maximum timestep:* 5
-- *Output filename:* exampleOut.csv
+- **sdtDBN being used:** exampleFile.txt (inserted in [first tab][1])
+- **Desired mode:** Progression until timestep
+- **Desired estimation mode:** Most Probable
+- **Maximum timestep:** 5
+- **Output filename:** exampleOut.csv
 
 And having inserted the observations for inference detailed in the explanation of the [fourth tab][4], the output would be:
 
 <p align="center">
   <img alt="Tab 7 of GUI - prog until timestep - after" src="Menu7_img2_1.png">
   <br>
-    <em>Display of tab 7 in "progression until timestep" mode, after making inference</em>
+    <em>Display of tab 7 in <b>Progression until timestep</b> mode, after making inference</em>
 </p>
 
 The inference output presented in the previous image is the same output given in [Example 3 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-3---getting-an-estimated-trajectory).
 
-The inference output of the example of the previous image is also saved in a file with the name provided by the user in the GUI (*exampleOut.csv* in the example of the previous image). This file is created in the same directory of the sdtDBN GUI program.
+The inference output of the example of the previous image is also saved in a file with the name provided by the user in the GUI (exampleOut.csv in the example of the previous image). This file is created in the same directory of the sdtDBN GUI program.
 
 
 <!---
