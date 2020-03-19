@@ -227,7 +227,14 @@ When opening the sixth tab without having learned an sdtDBN (either from the [fi
 
 After properly learning an sdtDBN and inserting the observations useful to inference, a user can select the several options of this tab to determine a trajectory of either a specific attribute or all attributes, until a certain timestep, given the data of a certain subject/id.
 
-For example, if using the sdtDBN from the explanation of the [first tab][1] with the observations for inference inserted in the [fourth tab][4], when specifying, for **id=3**, **maximum timestep=5** and estimating values using always the **most probable** value of each distribution, the output would be the following:
+For example, introducing the following arguments:
+- *sdtDBN being used:* exampleFile.txt (inserted in [first tab][1])
+- *Desired id:* 3
+- *Desired attribute:* all
+- *Maximum timestep:* 5
+- *Desired estimation mode:* Most Probable
+
+And having inserted the observations for inference detailed in the explanation of the [fourth tab][4], the output would be:
 
 <p align="center">
   <img alt="Tab 6 of GUI - results" src="Menu6_img_1.png">
