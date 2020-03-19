@@ -127,7 +127,7 @@ When opening the third tab without having learned an sdtDBN either from the [fir
     <em>Tab 3 initial display</em>
 </p>
 
-&emsp;:warning::warning::warning: __*As the field **sdtDBN being used** states by displaying **No file yet selected**, an sdtDBN must be learned (using the [first][1] or [second][2] tabs) before using this tab.*__ :warning::warning::warning:
+&emsp;:warning::warning::warning: <u>*As the field **sdtDBN being used** states by displaying **No file yet selected**, an sdtDBN must be learned (using the [first][1] or [second][2] tabs) before using this tab.*</u> :warning::warning::warning:
 
 After having learned an sdtDBN, a graphical representation can be generated in this third tab.
 
