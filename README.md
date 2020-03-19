@@ -100,10 +100,11 @@ When opening the second tab, the GUI shows the following display:
     <em>Tab 2 initial display</em>
 </p>
 
-Following the example presented for the [first tab][1], the object with a learned sdtDBN can be loaded into the GUI program in this second tab.
+Having an sdtDBN object stored in a file (after, for example, learning an sdtDBN from data using the [first tab][1]), the object with the learned sdtDBN can be loaded into the GUI program using this second tab.
 
 Therefore, providing the following parameter:
-- *File with sdtDBN object:* exampleFile.txt (see [first tab][1])
+
+- **File with sdtDBN object:** exampleFile.txt (see [first tab][1])
 
 The output would be:
 
