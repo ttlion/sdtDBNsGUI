@@ -194,7 +194,13 @@ When opening the fifth tab without having learned an sdtDBN (either from the [fi
 
 After properly learning an sdtDBN and inserting the observations useful to inference, a user can select the several options of this tab to determine the probability distribution of an attribute in a certain timestep for a selected id.
 
-For example, if using the sdtDBN from the explanation of the [first tab][1] with the observations for inference inserted in the [fourth tab][4], and specifying **id=1**, **attribute=a** and **timestep=3**, the output would be the following:
+For example, introducing the following arguments:
+- *sdtDBN being used:* exampleFile.txt (inserted in [first tab][1])
+- *Desired id:* 1
+- *Desired attribute:* a
+- *Desired timestep:* 3
+
+And having inserted the observations for inference detailed in the explanation of the [fourth tab][4], the output would be:
 
 <p align="center">
   <img alt="Tab 5 of GUI - results" src="Menu5_img_1.png">
