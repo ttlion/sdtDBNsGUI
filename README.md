@@ -252,53 +252,53 @@ The trajectory obtained in the previous image is the same as the one obtained in
 
 When opening the seventh tab without having learned an sdtDBN (either from the [first tab][1] or the [second tab][2]), and without having specified any observations to be used for inference (using the [fourth tab][4]) the GUI shows one of the two displays presented next, according to the selected mode of this seventh tab.
 
-In the *"attribute inference"* mode, the initial display would be the following:
+In the **Attribute inference** mode, the initial display would be the following:
 
 <p align="center" id="img_tab7_attInf">
   <img alt="Tab 7 of GUI - att inf" src="Menu7_img1.png">
   <br>
-    <em>Initial display of tab 7 in "attribute inference" mode</em>
+    <em>Initial display of tab 7 in <b>Attribute inference</b> mode</em>
 </p>
 
-In the *"progression until timestep"* mode, the initial display would be the following:
+In the **Progression until timestep** mode, the initial display would be the following:
 
 <p align="center" id="img_tab7_prog">
   <img alt="Tab 7 of GUI - prog until timestep" src="Menu7_img2.png">
   <br>
-    <em>Initial display of tab 7 in "progression until timestep" mode</em>
+    <em>Initial display of tab 7 in <b>Progression until timestep</b> mode</em>
 </p>
 
-&emsp;:warning::warning::warning: **As the field "*sdtDBN being used*" states by displaying "*No file yet selected*", an sdtDBN must be learned (using the [first][1] or [second][2] tabs) before using this tab.** :warning::warning::warning:
+&emsp;:warning::warning::warning: *As the field **sdtDBN being used** states by displaying **No file yet selected**, an sdtDBN must be learned (using the [first][1] or [second][2] tabs) before using this tab.* :warning::warning::warning:
 
-&emsp;:warning::warning::warning: **As this tab concerns inference capabilities of the sdtDBN, the observations to be used when making inference should be inserted (using the [fourth tab][4]) before using this tab.** :warning::warning::warning:
+&emsp;:warning::warning::warning: *As this tab concerns inference capabilities of the sdtDBN, the observations to be used when making inference should be inserted (using the [fourth tab][4]) before using this tab.* :warning::warning::warning:
 
-As already stated, this seventh tab has two modes: *"attribute inference"* and *"progression until timestep"*. Each mode functioning is detailed next.
+As already stated, this seventh tab has two modes: **Attribute inference** and **Progression until timestep**. Each mode functioning is detailed next.
 
-### Seventh tab in "attribute inference" mode
+### Seventh tab -- Attribute inference mode
 
-In the *"attribute inference"* mode (see the [first image of this tab's explanation](#img_tab7_attInf)), besides choosing among the available estimation modes (see [Example 2 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-2---inference-of-specific-attributes-on-a-learned-sdtdbn-with-dynamic-and-static-attributes) for details on the three available modes), the user must introduce the file with the variables to make inference. This file must be a CSV file in the format described at the [proper section of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#file-with-variables-and-respective-timesteps-to-make-inference).
+In the **Attribute inference** mode (see the [first image of this tab's explanation](#img_tab7_attInf)), besides choosing among the available estimation modes (see [Example 2 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-2---inference-of-specific-attributes-on-a-learned-sdtdbn-with-dynamic-and-static-attributes) for details on the three available modes), the user must introduce a file with the variables in which inference is to be made. This file must be a CSV file in the format described at the [proper section of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#file-with-variables-and-respective-timesteps-to-make-inference).
 
 For illustration, introducing the following arguments:
-- *sdtDBN being used:* exampleFile.txt (inserted in [first tab][1])
-- *Desired mode:* Attribute inference
-- *Desired estimation mode:* Distribution
-- *File with vars to inference:* [example2_infVars.csv](example2_infVars.csv) (same file used in the [sdtDBN webpage](https://ttlion.github.io/sdtDBN/))
-- *Output filename:* exampleOut.csv
+- **sdtDBN being used:** exampleFile.txt (inserted in [first tab][1])
+- **Desired mode:** Attribute inference
+- **Desired estimation mode:** Distribution
+- **File with vars to inference:** [example2_infVars.csv](example2_infVars.csv) (same file used in the [sdtDBN webpage](https://ttlion.github.io/sdtDBN/))
+- **Output filename:** exampleOut.csv
 
 And having inserted the observations for inference detailed in the explanation of the [fourth tab][4], the output would be:
 
 <p align="center">
   <img alt="Tab 7 of GUI - att inf - after" src="Menu7_img1_1.png">
   <br>
-    <em>Display of tab 7 in "attribute inference mode" mode, after making inference</em>
+    <em>Display of tab 7 in <b>Attribute inference</b> mode, after making inference</em>
 </p>
 
 The inference output presented in the previous image is the same output given in [Example 2 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-2---inference-of-specific-attributes-on-a-learned-sdtdbn-with-dynamic-and-static-attributes).
 
-When making inference as shown in the previous image, the inference output is also saved in a file with the name provided by the user in the GUI (*exampleOut.csv* in the example of the previous image). This file is created in the same directory of the sdtDBN GUI program.
+When making inference as shown in the previous image, the inference output is also saved in a file with the name provided by the user in the GUI (exampleOut.csv in the example of the previous image). This file is created in the same directory of the sdtDBN GUI program.
 
 
-### Seventh tab in "progression until timestep" mode
+### Seventh tab -- Progression until timestep mode
 
 In the *"progression until timestep"* mode (see the [second image of this tab's explanation](#img_tab7_prog)), the user should define the desired estimation mode and the maximum timestep. The program will determine, for all subjects/ids in the observation files given in the [fourth tab][4], an estimated trajectory of all attributes until the defined maximum timestep.
 
