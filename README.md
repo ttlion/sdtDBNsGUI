@@ -270,13 +270,20 @@ In the *"progression until timestep"* mode, the initial display would be the fol
 
 &emsp;:warning::warning::warning: **As this tab concerns inference capabilities of the sdtDBN, the observations to be used when making inference should be inserted (using the [fourth tab][4]) before using this tab.** :warning::warning::warning:
 
-As already stated, this seventh tab has two modes: *"attribute inference"* and *"progression until timestep"*. Each mode functioning is detailed next. In both explanations, it is assumed that it was selected the sdtDBN from the explanation of the [first tab][1] with the observations for inference inserted in the [fourth tab][4].
+As already stated, this seventh tab has two modes: *"attribute inference"* and *"progression until timestep"*. Each mode functioning is detailed next.
 
 ### Seventh tab in "attribute inference" mode
 
 In the *"attribute inference"* mode (see the [first image of this tab's explanation](#img_tab7_attInf)), besides choosing among the available estimation modes (see [Example 2 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-2---inference-of-specific-attributes-on-a-learned-sdtdbn-with-dynamic-and-static-attributes) for details on the three available modes), the user must introduce the file with the variables to make inference. This file must be a CSV file in the format described at the [proper section of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#file-with-variables-and-respective-timesteps-to-make-inference).
 
-For illustration, it will be used the file [example2_infVars.csv](example2_infVars.csv) as the file with variables to make inference, which is the same file used in the examples of the [sdtDBN webpage](https://ttlion.github.io/sdtDBN/). The display when the **distribution** estimation mode is selected is the following:
+For illustration, introducing the following arguments:
+- *sdtDBN being used:* exampleFile.txt (inserted in [first tab][1])
+- *Desired mode:* Attribute inference
+- *Desired estimation mode:* Distribution
+- *File with vars to inference:* [example2_infVars.csv](example2_infVars.csv) (same file used in examples of the [sdtDBN webpage](https://ttlion.github.io/sdtDBN/))
+- *Output filename:* exampleOut.csv
+
+And having inserted the observations for inference detailed in the explanation of the [fourth tab][4], the output would be:
 
 <p align="center">
   <img alt="Tab 7 of GUI - att inf - after" src="Menu7_img1_1.png">
