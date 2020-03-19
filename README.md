@@ -99,7 +99,12 @@ When opening the second tab, the GUI shows the following display:
     <em>Tab 2 initial display</em>
 </p>
 
-Following the example presented for the [first tab][1], the object with a learned sdtDBN can be loaded into the GUI program in this second tab. After loading the file (named *exampleFile.txt*) and clicking **submit file**, the following output is obtained:
+Following the example presented for the [first tab][1], the object with a learned sdtDBN can be loaded into the GUI program in this second tab.
+
+Therefore, providing the following parameter:
+- *File with sdtDBN object:* exampleFile.txt (see [first tab][1])
+
+The output would be:
 
 <p align="center">
   <img alt="Tab 2 of GUI - results" src="Menu2_img_1.png">
