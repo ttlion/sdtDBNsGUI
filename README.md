@@ -280,7 +280,7 @@ For illustration, introducing the following arguments:
 - *sdtDBN being used:* exampleFile.txt (inserted in [first tab][1])
 - *Desired mode:* Attribute inference
 - *Desired estimation mode:* Distribution
-- *File with vars to inference:* [example2_infVars.csv](example2_infVars.csv) (same file used in examples of the [sdtDBN webpage](https://ttlion.github.io/sdtDBN/))
+- *File with vars to inference:* [example2_infVars.csv](example2_infVars.csv) (same file used in the [sdtDBN webpage](https://ttlion.github.io/sdtDBN/))
 - *Output filename:* exampleOut.csv
 
 And having inserted the observations for inference detailed in the explanation of the [fourth tab][4], the output would be:
