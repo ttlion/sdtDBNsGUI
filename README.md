@@ -4,13 +4,13 @@ This website explains how to use the Graphical User Interface (GUI) of the sdtDB
 
 # sdtDBN program
 
-sdtDBN is a program developed to learn Dynamic Bayesian Networks (DBNs) with both static and dynamic features/attributes, also allowing a user to make inference on the learned DBNs. All background related to sdtDBNs can be checked in the sdtDBN website, available at [https://ttlion.github.io/sdtDBN/](https://ttlion.github.io/sdtDBN/). The GUI presented in this website is an interface for a user to be able to control the sdtDBN program capabilities in a graphical way.
+sdtDBN is a program developed to learn Dynamic Bayesian Networks (DBNs) with both static and dynamic features/attributes, also allowing a user to make inference on the learned DBNs. All background related to sdtDBNs can be checked in the sdtDBNs' website, available at [https://ttlion.github.io/sdtDBN/](https://ttlion.github.io/sdtDBN/). The GUI presented in this website is an interface for a user to be able to control the sdtDBN program's capabilities in a graphical way.
 
 # Current releases and external libraries
 
 ## Current releases
 
-The GUI was developed using Python, being all source files available [here](sources_sdtDBNsGUI.zip), with the respective Github repository available [here](https://github.com/ttlion/sdtDBNsGUI_code).
+The GUI was developed using Python, being all source files available [here](sources_sdtDBNsGUI.zip), with the respective GitHub repository available [here](https://github.com/ttlion/sdtDBNsGUI_code).
 
 For a user to be able to run the program without having to resort to the Python programming language, there are available executable standalone versions of the program, for Windows and for Linux, both in version 0.0.1: 
 
@@ -87,7 +87,7 @@ The output would be:
 
 The obtained sdtDBN shown in the previous image is the same one as in [Example 1 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-1---learning-a-sdtdbn-with-dynamic-and-static-attributes), as all the parameters are the same.
 
-The object of the learned sdtDBN is stored in a file (named exampleFile.txt in the example of the previous image). This file is created in the same directory of the sdtDBN GUI program and can be used to retrieve the learned sdtDBN afterwards, using the [second tab][2].
+The object with the learned sdtDBN is stored in a file (named exampleFile.txt in the example of the previous image). This file is created in the same directory of the sdtDBN GUI program and can be used to retrieve the learned sdtDBN afterwards, using the [second tab][2].
 
 ## Second tab: retrieving an sdtDBN object stored in a file
 [2]: #second-tab-retrieving-an-sdtdbn-object-stored-in-a-file
@@ -212,7 +212,7 @@ And having inserted the observations for inference detailed in the explanation o
 
 This output is the same as the one obtained when the distributions are determined in [Example 2 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-2---inference-of-specific-attributes-on-a-learned-sdtdbn-with-dynamic-and-static-attributes).
 
-## Sixth tab: predicting the progression of one or all attributes for a defined id
+## Sixth tab: predicting the progression of one or all attributes, for a defined id
 [6]: #sixth-tab-predicting-the-progression-of-one-or-all-attributes-for-a-defined-id
 
 When opening the sixth tab without having learned an sdtDBN (either from the [first tab][1] or the [second tab][2]), and without having specified any observations to be used for inference (using the [fourth tab][4]) the GUI shows the following display:
@@ -293,7 +293,7 @@ And having inserted the observations for inference detailed in the explanation o
     <em>Display of tab 7 in <b>Attribute inference</b> mode, after making inference</em>
 </p>
 
-The inference output presented in the previous image is the same output given in [Example 2 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-2---inference-of-specific-attributes-on-a-learned-sdtdbn-with-dynamic-and-static-attributes).
+The inference output presented in the previous image is the same output obtained when the distributions are determined in [Example 2 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-2---inference-of-specific-attributes-on-a-learned-sdtdbn-with-dynamic-and-static-attributes).
 
 When making inference as shown in the previous image, the inference output is also saved in a file with the name provided by the user in the GUI (exampleOut.csv in the example of the previous image). This file is created in the same directory of the sdtDBN GUI program.
 
