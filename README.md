@@ -221,7 +221,7 @@ And having inserted the observations for inference detailed in the explanation o
     <em>Display of tab 5 after specifying all parameters needed and making inference</em>
 </p>
 
-This output is the same as the one obtained when the distributions are determined in [Example 2 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-2-inference-on-specific-attributes-of-a-learned-sdtdbn-with-dynamic-and-static-attributes).
+This output is the same as the one obtained when the distributions are estimated in [Example 2 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-2-inference-on-specific-attributes-of-a-learned-sdtdbn-with-dynamic-and-static-attributes).
 
 ## Sixth tab: predicting the progression of one or all attributes, for a defined id
 [6]: #sixth-tab-predicting-the-progression-of-one-or-all-attributes-for-a-defined-id
@@ -238,7 +238,7 @@ When opening the sixth tab without having learned an sdtDBN (either from the [fi
 
 &emsp;:warning::warning::warning: *As the field **Desired id** states by displaying **Inference observations not given!**, the observations to be used when making inference should be inserted (using the [fourth tab][4]) before using this tab.* :warning::warning::warning:
 
-After properly learning an sdtDBN (using the [first][1] or [second][2] tabs) and inserting the useful observations for inference (using the [fourth tab][4]), the several options of this tab allow a user to determine a trajectory, until a certain timestep, of either a specific attribute or all attributes, given the data of a defined subject/id.
+After properly learning an sdtDBN (using the [first][1] or [second][2] tabs) and inserting the useful observations for inference (using the [fourth tab][4]), the several options of this tab allow a user to estimate a trajectory, until a certain timestep, of either a specific attribute or all attributes, given the data of a defined subject/id.
 
 For example, introducing the following arguments:
 - **sdtDBN being used:** exampleFile.txt (inserted in [first tab][1])
@@ -304,7 +304,7 @@ And having inserted the observations for inference detailed in the explanation o
     <em>Display of tab 7 in <b>Attribute inference</b> mode, after making inference</em>
 </p>
 
-The inference output presented in the previous image is the same output obtained when the distributions are determined in [Example 2 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-2-inference-on-specific-attributes-of-a-learned-sdtdbn-with-dynamic-and-static-attributes).
+The inference output presented in the previous image is the same output obtained when the distributions are estimated in [Example 2 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-2-inference-on-specific-attributes-of-a-learned-sdtdbn-with-dynamic-and-static-attributes).
 
 When making inference as shown in the previous image, the inference output is also saved in a file with the name provided by the user in the GUI (**exampleOut.csv** in the example of the previous image). This file is created in the same directory of the sdtDBN GUI program.
 
