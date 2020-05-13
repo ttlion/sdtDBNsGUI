@@ -63,7 +63,7 @@ When opening the first tab, the GUI shows the following display:
 <p align="center">
   <img alt="Tab 1 of GUI" src="Menu1_img.png">
   <br>
-    <em>Initial display of Tab 1</em>
+    <em>Initial display of tab 1</em>
 </p>
 
 To learn an sdtDBN using this first tab, all learning inputs and parameters of the sdtDBN program should be specified:
@@ -91,7 +91,7 @@ The output would be:
 <p align="center">
   <img alt="Tab 1 of GUI - results" src="Menu1_img_1.png">
   <br>
-    <em>Display of Tab 1 after learning an sdtDBN</em>
+    <em>Display of tab 1 after learning an sdtDBN</em>
 </p>
 
 The obtained sdtDBN shown in the previous image is the same one as in [Example 1 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-1-learning-an-sdtdbn-with-dynamic-and-static-attributes), as all the parameters are the same.
@@ -108,7 +108,7 @@ When opening the second tab, the GUI shows the following display:
 <p align="center">
   <img alt="Tab 2 of GUI" src="Menu2_img.png">
   <br>
-    <em>Initial display of Tab 2</em>
+    <em>Initial display of tab 2</em>
 </p>
 
 Having an sdtDBN object stored in a file (after, for example, learning an sdtDBN from data using the [first tab][1]), the object with the learned sdtDBN can be loaded into the GUI program using this second tab.
@@ -122,7 +122,7 @@ The output would be:
 <p align="center">
   <img alt="Tab 2 of GUI - results" src="Menu2_img_1.png">
   <br>
-    <em>Display of Tab 2 after retrieving an sdtDBN object stored in a file</em>
+    <em>Display of tab 2 after retrieving an sdtDBN object stored in a file</em>
 </p>
 
 This output presents the same sdtDBN learned in the [first tab][1].
@@ -135,7 +135,7 @@ When opening the third tab without having learned an sdtDBN either from the [fir
 <p align="center">
   <img alt="Tab 3 of GUI" src="Menu3_img.png">
   <br>
-    <em>Initial display of Tab 3</em>
+    <em>Initial display of tab 3</em>
 </p>
 
 &emsp;:warning::warning::warning: *As the field **sdtDBN being used** states by displaying **No file yet selected**, an sdtDBN must be learned (using the [first][1] or [second][2] tabs) before using this tab.* :warning::warning::warning:
@@ -151,7 +151,7 @@ The output would be:
 <p align="center">
   <img alt="Tab 3 of GUI - results" src="Menu3_img_1.png">
   <br>
-    <em>Display of Tab 3 after generating image</em>
+    <em>Display of tab 3 after generating image</em>
 </p>
 
 Besides being presented directly in the GUI (see previous image), the graphical representation of the learned sdtDBN is also stored in a PNG file (named **imgNameExample.png** in the example of the previous image). This file is created in the same directory of the sdtDBN GUI program. As the sdtDBN is the one from the [first tab explanation][1], the graphical representation of the sdtDBN is the same as the one obtained in [Example 1 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-1-learning-an-sdtdbn-with-dynamic-and-static-attributes).
@@ -165,7 +165,7 @@ When opening the fourth tab without having learned an sdtDBN either from the [fi
 <p align="center">
   <img alt="Tab 4 of GUI" src="Menu4_img.png">
   <br>
-    <em>Initial display of Tab 4</em>
+    <em>Initial display of tab 4</em>
 </p>
 
 &emsp;:warning::warning::warning: *As the field **sdtDBN being used** states by displaying **No file yet selected**, an sdtDBN must be learned (using the [first][1] or [second][2] tabs) before using this tab.* :warning::warning::warning:
@@ -182,7 +182,7 @@ The output would be:
 <p align="center">
   <img alt="Tab 4 of GUI - results" src="Menu4_img_1.png">
   <br>
-    <em>Display of Tab 4 after submitting the CSV files with the useful observations for making inference</em>
+    <em>Display of tab 4 after submitting the CSV files with the useful observations for making inference</em>
 </p>
 
 In the example provided in the previous image, the introduced files were the ones used in the [sdtDBN webpage](https://ttlion.github.io/sdtDBN/), so that the explanations of the remaining tabs can relate to the examples presented in the [sdtDBN webpage](https://ttlion.github.io/sdtDBN/).
@@ -198,7 +198,7 @@ When opening the fifth tab without having learned an sdtDBN (either from the [fi
 <p align="center">
   <img alt="Tab 5 of GUI" src="Menu5_img.png">
   <br>
-    <em>Initial display of Tab 5</em>
+    <em>Initial display of tab 5</em>
 </p>
 
 &emsp;:warning::warning::warning: *As the field **sdtDBN being used** states by displaying **No file yet selected**, an sdtDBN must be learned (using the [first][1] or [second][2] tabs) before using this tab.* :warning::warning::warning:
@@ -218,7 +218,7 @@ And having inserted the observations for inference detailed in the explanation o
 <p align="center">
   <img alt="Tab 5 of GUI - results" src="Menu5_img_1.png">
   <br>
-    <em>Display of Tab 5 after specifying all parameters needed</em>
+    <em>Display of tab 5 after specifying all parameters needed</em>
 </p>
 
 This output is the same as the one obtained when the distributions are determined in [Example 2 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-2-inference-on-specific-attributes-of-a-learned-sdtdbn-with-dynamic-and-static-attributes).
@@ -231,7 +231,7 @@ When opening the sixth tab without having learned an sdtDBN (either from the [fi
 <p align="center">
   <img alt="Tab 6 of GUI" src="Menu6_img.png">
   <br>
-    <em>Initial display of Tab 6</em>
+    <em>Initial display of tab 6</em>
 </p>
 
 &emsp;:warning::warning::warning: *As the field **sdtDBN being used** states by displaying **No file yet selected**, an sdtDBN must be learned (using the [first][1] or [second][2] tabs) before using this tab.* :warning::warning::warning:
@@ -252,7 +252,7 @@ And having inserted the observations for inference detailed in the explanation o
 <p align="center">
   <img alt="Tab 6 of GUI - results" src="Menu6_img_1.png">
   <br>
-    <em>Display of Tab 6 after specifying all parameters needed</em>
+    <em>Display of tab 6 after specifying all parameters needed</em>
 </p>
 
 The trajectory obtained in the previous image is the same as the one obtained in [Example 3 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-3-getting-an-estimated-trajectory) for subject 3, as all parameters specified are the same.
@@ -263,7 +263,7 @@ The trajectory obtained in the previous image is the same as the one obtained in
 
 When opening the seventh tab without having learned an sdtDBN (either from the [first tab][1] or the [second tab][2]), and without having specified any observations to be used for inference (using the [fourth tab][4]) the GUI shows one of the two displays presented next, according to the selected mode of this seventh tab.
 
-In the **Attribute inference** mode, the initial display would be the following:
+In the **Attribute inference** mode, the initial display is the following:
 
 <p align="center" id="img_tab7_attInf">
   <img alt="Tab 7 of GUI - att inf" src="Menu7_img1.png">
@@ -271,7 +271,7 @@ In the **Attribute inference** mode, the initial display would be the following:
     <em>Initial display of tab 7 in <b>Attribute inference</b> mode</em>
 </p>
 
-In the **Progression until timestep** mode, the initial display would be the following:
+In the **Progression until timestep** mode, the initial display is the following:
 
 <p align="center" id="img_tab7_prog">
   <img alt="Tab 7 of GUI - prog until timestep" src="Menu7_img2.png">
@@ -283,7 +283,7 @@ In the **Progression until timestep** mode, the initial display would be the fol
 
 &emsp;:warning::warning::warning: *As this tab concerns inference capabilities of the sdtDBN, the observations to be used when making inference should be inserted (using the [fourth tab][4]) before using this tab.* :warning::warning::warning:
 
-As already stated, this seventh tab has two modes: **Attribute inference** and **Progression until timestep**. Each mode functioning is detailed next.
+As already stated, this seventh tab has two modes: **Attribute inference** and **Progression until timestep**. Each mode's functioning is detailed next.
 
 ### Seventh tab — Attribute inference mode
 
