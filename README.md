@@ -198,7 +198,7 @@ When opening the fifth tab without having learned an sdtDBN (either from the [fi
 <p align="center">
   <img alt="Tab 5 of GUI" src="Menu5_img.png">
   <br>
-    <em>Tab 5 initial display</em>
+    <em>Initial display of Tab 5</em>
 </p>
 
 &emsp;:warning::warning::warning: *As the field **sdtDBN being used** states by displaying **No file yet selected**, an sdtDBN must be learned (using the [first][1] or [second][2] tabs) before using this tab.* :warning::warning::warning:
@@ -218,7 +218,7 @@ And having inserted the observations for inference detailed in the explanation o
 <p align="center">
   <img alt="Tab 5 of GUI - results" src="Menu5_img_1.png">
   <br>
-    <em>Tab 5 after specifying all parameters needed</em>
+    <em>Display of Tab 5 after specifying all parameters needed</em>
 </p>
 
 This output is the same as the one obtained when the distributions are determined in [Example 2 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-2-inference-on-specific-attributes-of-a-learned-sdtdbn-with-dynamic-and-static-attributes).
