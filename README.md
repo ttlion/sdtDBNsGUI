@@ -98,7 +98,7 @@ The obtained sdtDBN shown in the previous image is the same one as in [Example 1
 
 The object with the learned sdtDBN is stored in a file (named **exampleFile.txt** in the example of the previous image). This file is created in the same directory of the sdtDBN GUI program and can be used to retrieve the learned sdtDBN afterwards, using the [second tab][2].
 
-:warning: In this illustration of the first tab, the sdtDBN was learned without any restrictions, being also this unrestricted sdtDBN the one used throughout the explanations of the next tabs. For an example on how to add restrictions when learning an sdtDBN, check [Example 6 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-6-learning-an-sdtdbn-with-restrictions), where all types of restrictions are specified and example files are given (to use them in the GUI, it is only needed to insert each file in the proper input of the first tab). All files used in [Example 6 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-6-learning-an-sdtdbn-with-restrictions) are also provided in the zip file at the top of the webpage. :warning:
+:warning: In this illustration of the first tab, the sdtDBN was learned without any restrictions, being also this unrestricted sdtDBN the one used throughout the explanations of the next tabs. For an example on how to add restrictions when learning an sdtDBN, check [Example 6 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-6-learning-an-sdtdbn-with-restrictions), where all types of restrictions are specified and example files are given (to use them in the GUI, it is only needed to insert each file in the proper input of the first tab). All files used in [Example 6 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-6-learning-an-sdtdbn-with-restrictions) are also provided in the zip file at the top of the webpage (the zip file with the several input files used in the examples of this webpage). :warning:
 
 ## Second tab: retrieving an sdtDBN object stored in a file
 [2]: #second-tab-retrieving-an-sdtdbn-object-stored-in-a-file
@@ -252,7 +252,7 @@ And having inserted the observations for inference detailed in the explanation o
 <p align="center">
   <img alt="Tab 6 of GUI - results" src="Menu6_img_1.png">
   <br>
-    <em>Display of tab 6 after specifying all parameters needed</em>
+    <em>Display of tab 6 after specifying all parameters needed and making inference</em>
 </p>
 
 The trajectory obtained in the previous image is the same as the one obtained in [Example 3 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-3-getting-an-estimated-trajectory) for subject 3, as all parameters specified are the same.
@@ -287,7 +287,7 @@ As already stated, this seventh tab has two modes: **Attribute inference** and *
 
 ### Seventh tab — Attribute inference mode
 
-In the **Attribute inference** mode (see the [first image of this tab's explanation](#img_tab7_attInf)), besides choosing among the available estimation modes (see [Example 2 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-2-inference-on-specific-attributes-of-a-learned-sdtdbn-with-dynamic-and-static-attributes) for details on the three available modes), the user must introduce a file with the variables in which inference should be made. This file must be a CSV file in the format described at the [proper section of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#file-with-variables-and-respective-timesteps-to-make-inference). The program will provide, for all subjects/ids in the observation files given in the [fourth tab][4], estimations for the attributes selected in the previously mentioned CSV file with the variables in which inference should be made.
+In the **Attribute inference** mode (see the [first image of this tab's explanation](#img_tab7_attInf)), besides choosing among the available estimation modes (see [Example 2 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-2-inference-on-specific-attributes-of-a-learned-sdtdbn-with-dynamic-and-static-attributes) for details on the three available modes), the user must introduce a file with the variables in which inference should be made. This file must be a CSV file with the format described in the [proper section of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#file-with-variables-and-respective-timesteps-to-make-inference). The program will provide, for all subjects/ids in the observation files given in the [fourth tab][4], estimations for the attributes selected in the previously mentioned CSV file with the variables in which inference should be made.
 
 For illustration, introducing the following arguments:
 - **sdtDBN being used:** exampleFile.txt (inserted in [first tab][1])
