@@ -135,7 +135,7 @@ When opening the third tab without having learned an sdtDBN either from the [fir
 <p align="center">
   <img alt="Tab 3 of GUI" src="Menu3_img.png">
   <br>
-    <em>Tab 3 initial display</em>
+    <em>Initial display of Tab 3</em>
 </p>
 
 &emsp;:warning::warning::warning: *As the field **sdtDBN being used** states by displaying **No file yet selected**, an sdtDBN must be learned (using the [first][1] or [second][2] tabs) before using this tab.* :warning::warning::warning:
@@ -151,10 +151,10 @@ The output would be:
 <p align="center">
   <img alt="Tab 3 of GUI - results" src="Menu3_img_1.png">
   <br>
-    <em>Tab 3 after generating image</em>
+    <em>Display of Tab 3 after generating image</em>
 </p>
 
-Besides being presented directly in the GUI (see previous image), the graphical representation of the learned sdtDBN is also stored in a PNG file (named imgNameExample.png in the example of the previous image). This file is created in the same directory of the sdtDBN GUI program. As the sdtDBN is the one from the [first tab explanation][1], the graphical representation of the sdtDBN is the same as the one obtained in [Example 1 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-1-learning-an-sdtdbn-with-dynamic-and-static-attributes).
+Besides being presented directly in the GUI (see previous image), the graphical representation of the learned sdtDBN is also stored in a PNG file (named **imgNameExample.png** in the example of the previous image). This file is created in the same directory of the sdtDBN GUI program. As the sdtDBN is the one from the [first tab explanation][1], the graphical representation of the sdtDBN is the same as the one obtained in [Example 1 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-1-learning-an-sdtdbn-with-dynamic-and-static-attributes).
 
 ## Fourth tab: inserting the observations that will be used to make inference on a learned sdtDBN
 [4]: #fourth-tab-inserting-the-observations-that-will-be-used-to-make-inference-on-a-learned-sdtdbn
