@@ -1,10 +1,10 @@
-# Website description 
+# Webpage description 
 
-This website explains how to use the Graphical User Interface (GUI) of the sdtDBN program.
+This webpage explains how to use the Graphical User Interface (GUI) of the sdtDBN program.
 
 # sdtDBN program
 
-sdtDBN is a program developed to learn Dynamic Bayesian Networks (DBNs) with both static and dynamic features/attributes, also allowing a user to make inference on the learned DBNs. All background related to sdtDBNs can be checked in the sdtDBNs' website, available at [https://ttlion.github.io/sdtDBN/](https://ttlion.github.io/sdtDBN/). The GUI presented in this website is an interface for a user to be able to control the sdtDBN program's capabilities in a graphical way.
+sdtDBN is a program, implemented in Java, developed to learn Dynamic Bayesian Networks (DBNs) with both static and dynamic features/attributes, also allowing a user to make inference on the learned DBNs and to make restrictions in the structure of the learned networks. All background related to sdtDBNs can be checked in the sdtDBNs' webpage, available at [https://ttlion.github.io/sdtDBN/](https://ttlion.github.io/sdtDBN/). The GUI presented in this webpage is an interface for a user to be able to control the sdtDBN program's capabilities in a graphical way.
 
 # Current releases and external libraries
 
@@ -21,37 +21,39 @@ These executable versions were created, from the Python source code, using [PyIn
 
 ## External libraries
 
-To generate images for the sdtDBNs, the GUI uses the DOT language. Therefore, if the user wants to employ the GUI to create graphical representations of the learned sdtDBNs (more details [here](#how-to-use-the-sdtdbn-gui-program)), [Graphviz](https://www.graphviz.org/) must be installed in the proper Operating System. Check [here](https://www.graphviz.org/download/) for more details on how to install [Graphviz](https://www.graphviz.org/).
+To generate images for the sdtDBNs, the GUI uses the DOT language. Therefore, if the user wants to employ the GUI to create graphical representations of the learned sdtDBNs (more details [here](#how-to-use-the-sdtdbn-gui-program)), [Graphviz](https://www.graphviz.org/) must be installed in the proper Operating System. Check [here](https://www.graphviz.org/download/) for information about how to install [Graphviz](https://www.graphviz.org/).
 
-The program, written in Python, uses several Python libraries/modules (which the user only needs to install if working with the source code, instead of the provided executable versions). An overview of the used libraries/modules is given next:
+The program, written in Python, uses several Python libraries/modules (which the user only needs to install if working with the source code, instead of working with the provided standalone versions). An overview of the used libraries/modules is given next:
 
-- [tkinter](https://docs.python.org/3/library/tk.html), for generating the Graphical User Interface, with all its capabilities
-- [csv](https://docs.python.org/3/library/csv.html), for parsing CSV files
-- [sys](https://docs.python.org/3/library/sys.html), for using some specific methods of the Python interpreter
-- [os](https://docs.python.org/3/library/os.html), for using some capabilities of the Operating System directly from the Python program
-- [subprocess](https://docs.python.org/3/library/subprocess.html), for running command line arguments using the Python program
-- [webbrowser](https://docs.python.org/3/library/webbrowser.html), for opening webpages from the GUI
-- [re](https://docs.python.org/3/library/re.html), for making operations using regular expressions
+- [tkinter](https://docs.python.org/3/library/tk.html), for generating the Graphical User Interface, with all its capabilities;
+- [csv](https://docs.python.org/3/library/csv.html), for parsing CSV files;
+- [sys](https://docs.python.org/3/library/sys.html), for using some specific methods of the Python interpreter;
+- [os](https://docs.python.org/3/library/os.html), for using some capabilities of the Operating System directly from the Python program;
+- [subprocess](https://docs.python.org/3/library/subprocess.html), for running command line arguments using the Python program;
+- [webbrowser](https://docs.python.org/3/library/webbrowser.html), for opening webpages from the GUI;
+- [re](https://docs.python.org/3/library/re.html), for making operations using regular expressions.
 
 # How to use the sdtDBN GUI program?
 
-The sdtDBNs GUI is composed by 7 tabs, each with its specific function in order to use the sdtDBNs capabilities. The general workflow of the sdtDBNs GUI using the developed tabs is the following:
+The sdtDBNs GUI is composed by 7 tabs, each with its specific function in order to use the capabilities of the sdtDBN program. The general workflow of the sdtDBNs GUI using the developed tabs is the following:
 
-1. To learn an sdtDBN, the user can resort to either the [first tab][1] or the [second tab][2]. The [first tab][1] should be used if the user wants to learn an sdtDBN from input data/observations, whereas the [second tab][2] should be used if the user wants to retrieve an sdtDBN object previously learned and stored in a file.
+1. To learn an sdtDBN, the user can resort to either the [first tab][1] or the [second tab][2];
+   - The [first tab][1] should be used if the user wants to learn an sdtDBN from input data/observations; 
+   - The [second tab][2] should be used if the user wants to retrieve an sdtDBN object previously learned and stored in a file.
 
-2. After learning an sdtDBN, the user might desire to get a graphical representation of the sdtDBN, for which the [third tab][3] should be used.
+2. After learning an sdtDBN, the user might desire to get a graphical representation of the sdtDBN, for which the [third tab][3] should be used;
 
-3. To perform inference, there must be given some observations of subjects/ids on which inference is to be made, which can be done in the [fourth tab][4].
+3. To perform inference, there must be given some observations of the subjects/ids on which inference should be made, which can be done in the [fourth tab][4];
 
 4. After learning an sdtDBN and loading the observations for making inference, there are three inference modes a user can choose, each in its specific tab:
    
-   1. If the user wants to know the probability distribution of a specific attribute in a particular timestep given the data of a certain subject/id, the [fifth tab][5] should be used.
+   1. If the user wants to know the probability distribution of a specific attribute in a particular timestep, given the data of a certain subject/id, the [fifth tab][5] should be used;
    
-   2. If the user wants to, given the data of a specific subject/id, predict the progression of either all attributes or a particular attribute until a certain timestep, the [sixth tab][6] can be used.
+   2. If the user wants to, given the data of a specific subject/id, predict the progression of either all attributes or a particular attribute until a certain timestep, the [sixth tab][6] can be used;
    
    3. If the user wants to make predictions for several subjects/ids, the [seventh tab][7] is the correct one.
 
-Given the general workflow described, the usage of each tab is described next. Throughout the explanations, several input files are used, which can be downloaded by clicking on their names or at the side of the webpage, where there is provided a zip file with all input files used.
+Given the general workflow described, the usage of each tab is described next. Throughout the explanations, several input files are used, which can be downloaded by clicking on their names or at the top of the webpage, where there is provided a zip file with all input files used.
 
 ## First tab: learning an sdtDBN from user data
 [1]: #first-tab-learning-an-sdtdbn-from-user-data
@@ -61,10 +63,16 @@ When opening the first tab, the GUI shows the following display:
 <p align="center">
   <img alt="Tab 1 of GUI" src="Menu1_img.png">
   <br>
-    <em>Tab 1 initial display</em>
+    <em>Initial display of Tab 1</em>
 </p>
 
-To learn an sdtDBN using this first tab, the CSV files with observations must be given (if only given dynamic observations, the program will learn a [tDBN](http://josemonteiro.github.io/tDBN/), without static attributes). The CSV input files with dynamic and static observations must be in the format explained in the [proper section of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#input-files-formats). The remaining parameters can be tuned according to the user's needs. 
+To learn an sdtDBN using this first tab, all learning inputs and parameters of the sdtDBN program should be specified:
+
+- The CSV files with observations must be given (if only given dynamic observations, the program will learn a [tDBN](http://josemonteiro.github.io/tDBN/), without static attributes);
+  - The CSV input files with dynamic and static observations must be in the format explained in the [proper section of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#input-files-to-learn-an-sdtdbn-from-data-and-make-inference-in-the-learned-sdtdbn). 
+- If the user wants to make restrictions in the sdtDBN, it should introduce the desired restriction in a CSV file in the proper field of the GUI (among the six options available at the bottom of the first tab);
+  - The CSV input files with restrictions to the sdtDBN network must be in the format explained in the [proper section of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#input-files-to-make-restrictions-in-the-relations-of-the-sdtdbn).
+- The remaining parameters can be tuned according to the user's needs. 
 
 For illustration, providing the following parameters:
 
@@ -76,18 +84,21 @@ For illustration, providing the following parameters:
 - **Scoring Function:** Log-Likelihood (LL)
 - **Stationary sdtDBN?:** yes
 - **File to save the learned sdtDBN:** exampleFile.txt
+- **Files with restrictions:** all 6 fields left without file, not using restrictions in the network learned.
 
 The output would be:
 
 <p align="center">
   <img alt="Tab 1 of GUI - results" src="Menu1_img_1.png">
   <br>
-    <em>Tab 1 after learning an sdtDBN</em>
+    <em>Display of Tab 1 after learning an sdtDBN</em>
 </p>
 
-The obtained sdtDBN shown in the previous image is the same one as in [Example 1 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-1---learning-a-sdtdbn-with-dynamic-and-static-attributes), as all the parameters are the same.
+The obtained sdtDBN shown in the previous image is the same one as in [Example 1 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-1-learning-an-sdtdbn-with-dynamic-and-static-attributes), as all the parameters are the same.
 
-The object with the learned sdtDBN is stored in a file (named exampleFile.txt in the example of the previous image). This file is created in the same directory of the sdtDBN GUI program and can be used to retrieve the learned sdtDBN afterwards, using the [second tab][2].
+The object with the learned sdtDBN is stored in a file (named **exampleFile.txt** in the example of the previous image). This file is created in the same directory of the sdtDBN GUI program and can be used to retrieve the learned sdtDBN afterwards, using the [second tab][2].
+
+:warning: In this illustration of the first tab, the sdtDBN was learned without any restrictions, being also this unrestricted sdtDBN the one used throughout the explanations of the next tabs. For an example on how to add restrictions when learning an sdtDBN, check [Example 6 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-6-learning-an-sdtdbn-with-restrictions), where all types of restrictions are specified and example files are given (to use them in the GUI, it is only needed to insert each file in the proper input of the first tab). All files used in [Example 6 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-6-learning-an-sdtdbn-with-restrictions) are also provided in the zip file at the top of the webpage. :warning:
 
 ## Second tab: retrieving an sdtDBN object stored in a file
 [2]: #second-tab-retrieving-an-sdtdbn-object-stored-in-a-file
@@ -97,7 +108,7 @@ When opening the second tab, the GUI shows the following display:
 <p align="center">
   <img alt="Tab 2 of GUI" src="Menu2_img.png">
   <br>
-    <em>Tab 2 initial display</em>
+    <em>Initial display of Tab 2</em>
 </p>
 
 Having an sdtDBN object stored in a file (after, for example, learning an sdtDBN from data using the [first tab][1]), the object with the learned sdtDBN can be loaded into the GUI program using this second tab.
@@ -111,7 +122,7 @@ The output would be:
 <p align="center">
   <img alt="Tab 2 of GUI - results" src="Menu2_img_1.png">
   <br>
-    <em>Tab 2 after retrieving an sdtDBN object stored in a file</em>
+    <em>Display of Tab 2 after retrieving an sdtDBN object stored in a file</em>
 </p>
 
 This output presents the same sdtDBN learned in the [first tab][1].
@@ -143,7 +154,7 @@ The output would be:
     <em>Tab 3 after generating image</em>
 </p>
 
-Besides being presented directly in the GUI (see previous image), the graphical representation of the learned sdtDBN is also stored in a PNG file (named imgNameExample.png in the example of the previous image). This file is created in the same directory of the sdtDBN GUI program. As the sdtDBN is the one from the [first tab explanation][1], the graphical representation of the sdtDBN is the same as the one obtained in [Example 1 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-1---learning-a-sdtdbn-with-dynamic-and-static-attributes).
+Besides being presented directly in the GUI (see previous image), the graphical representation of the learned sdtDBN is also stored in a PNG file (named imgNameExample.png in the example of the previous image). This file is created in the same directory of the sdtDBN GUI program. As the sdtDBN is the one from the [first tab explanation][1], the graphical representation of the sdtDBN is the same as the one obtained in [Example 1 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-1-learning-an-sdtdbn-with-dynamic-and-static-attributes).
 
 ## Fourth tab: inserting the observations that will be used to make inference on a learned sdtDBN
 [4]: #fourth-tab-inserting-the-observations-that-will-be-used-to-make-inference-on-a-learned-sdtdbn
@@ -210,7 +221,7 @@ And having inserted the observations for inference detailed in the explanation o
     <em>Tab 5 after specifying all parameters needed</em>
 </p>
 
-This output is the same as the one obtained when the distributions are determined in [Example 2 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-2---inference-of-specific-attributes-on-a-learned-sdtdbn-with-dynamic-and-static-attributes).
+This output is the same as the one obtained when the distributions are determined in [Example 2 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-2-inference-on-specific-attributes-of-a-learned-sdtdbn-with-dynamic-and-static-attributes).
 
 ## Sixth tab: predicting the progression of one or all attributes, for a defined id
 [6]: #sixth-tab-predicting-the-progression-of-one-or-all-attributes-for-a-defined-id
@@ -244,7 +255,7 @@ And having inserted the observations for inference detailed in the explanation o
     <em>Tab 6 after specifying all parameters needed</em>
 </p>
 
-The trajectory obtained in the previous image is the same as the one obtained in [Example 3 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-3---getting-an-estimated-trajectory) for subject 3, as all parameters specified are the same.
+The trajectory obtained in the previous image is the same as the one obtained in [Example 3 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-3-getting-an-estimated-trajectory) for subject 3, as all parameters specified are the same.
 
 
 ## Seventh tab: making predictions for several ids
@@ -276,7 +287,7 @@ As already stated, this seventh tab has two modes: **Attribute inference** and *
 
 ### Seventh tab — Attribute inference mode
 
-In the **Attribute inference** mode (see the [first image of this tab's explanation](#img_tab7_attInf)), besides choosing among the available estimation modes (see [Example 2 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-2---inference-of-specific-attributes-on-a-learned-sdtdbn-with-dynamic-and-static-attributes) for details on the three available modes), the user must introduce a file with the variables in which inference is to be made. This file must be a CSV file in the format described at the [proper section of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#file-with-variables-and-respective-timesteps-to-make-inference). The program will provide, for all subjects/ids in the observation files given in the [fourth tab][4], estimations for the attributes selected in the previously mentioned CSV file with the variables in which inference is to be made.
+In the **Attribute inference** mode (see the [first image of this tab's explanation](#img_tab7_attInf)), besides choosing among the available estimation modes (see [Example 2 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-2-inference-on-specific-attributes-of-a-learned-sdtdbn-with-dynamic-and-static-attributes) for details on the three available modes), the user must introduce a file with the variables in which inference is to be made. This file must be a CSV file in the format described at the [proper section of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#file-with-variables-and-respective-timesteps-to-make-inference). The program will provide, for all subjects/ids in the observation files given in the [fourth tab][4], estimations for the attributes selected in the previously mentioned CSV file with the variables in which inference is to be made.
 
 For illustration, introducing the following arguments:
 - **sdtDBN being used:** exampleFile.txt (inserted in [first tab][1])
@@ -293,7 +304,7 @@ And having inserted the observations for inference detailed in the explanation o
     <em>Display of tab 7 in <b>Attribute inference</b> mode, after making inference</em>
 </p>
 
-The inference output presented in the previous image is the same output obtained when the distributions are determined in [Example 2 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-2---inference-of-specific-attributes-on-a-learned-sdtdbn-with-dynamic-and-static-attributes).
+The inference output presented in the previous image is the same output obtained when the distributions are determined in [Example 2 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-2-inference-on-specific-attributes-of-a-learned-sdtdbn-with-dynamic-and-static-attributes).
 
 When making inference as shown in the previous image, the inference output is also saved in a file with the name provided by the user in the GUI (exampleOut.csv in the example of the previous image). This file is created in the same directory of the sdtDBN GUI program.
 
@@ -317,7 +328,7 @@ And having inserted the observations for inference detailed in the explanation o
     <em>Display of tab 7 in <b>Progression until timestep</b> mode, after making inference</em>
 </p>
 
-The inference output presented in the previous image is the same output given in [Example 3 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-3---getting-an-estimated-trajectory).
+The inference output presented in the previous image is the same output given in [Example 3 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-3-getting-an-estimated-trajectory).
 
 The inference output of the example of the previous image is also saved in a file with the name provided by the user in the GUI (exampleOut.csv in the example of the previous image). This file is created in the same directory of the sdtDBN GUI program.
 
