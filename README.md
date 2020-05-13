@@ -165,7 +165,7 @@ When opening the fourth tab without having learned an sdtDBN either from the [fi
 <p align="center">
   <img alt="Tab 4 of GUI" src="Menu4_img.png">
   <br>
-    <em>Tab 4 initial display</em>
+    <em>Initial display of Tab 4</em>
 </p>
 
 &emsp;:warning::warning::warning: *As the field **sdtDBN being used** states by displaying **No file yet selected**, an sdtDBN must be learned (using the [first][1] or [second][2] tabs) before using this tab.* :warning::warning::warning:
@@ -182,12 +182,12 @@ The output would be:
 <p align="center">
   <img alt="Tab 4 of GUI - results" src="Menu4_img_1.png">
   <br>
-    <em>Tab 4 after submitting the CSV files with the useful observations for making inference</em>
+    <em>Display of Tab 4 after submitting the CSV files with the useful observations for making inference</em>
 </p>
 
 In the example provided in the previous image, the introduced files were the ones used in the [sdtDBN webpage](https://ttlion.github.io/sdtDBN/), so that the explanations of the remaining tabs can relate to the examples presented in the [sdtDBN webpage](https://ttlion.github.io/sdtDBN/).
 
-As stated in the explanation of the [first tab][1], the CSV input files with dynamic and static observations must be in the [format explained in the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#input-files-formats).
+As stated in the explanation of the [first tab][1], the CSV input files with dynamic and static observations must be in the [format explained in the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#input-files-to-learn-an-sdtdbn-from-data-and-make-inference-in-the-learned-sdtdbn).
 
 
 ## Fifth tab: predicting the distribution of a selected attribute in a certain timestep for a defined id
