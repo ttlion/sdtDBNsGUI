@@ -231,7 +231,7 @@ When opening the sixth tab without having learned an sdtDBN (either from the [fi
 <p align="center">
   <img alt="Tab 6 of GUI" src="Menu6_img.png">
   <br>
-    <em>Tab 6 initial display</em>
+    <em>Initial display of Tab 6</em>
 </p>
 
 &emsp;:warning::warning::warning: *As the field **sdtDBN being used** states by displaying **No file yet selected**, an sdtDBN must be learned (using the [first][1] or [second][2] tabs) before using this tab.* :warning::warning::warning:
@@ -252,7 +252,7 @@ And having inserted the observations for inference detailed in the explanation o
 <p align="center">
   <img alt="Tab 6 of GUI - results" src="Menu6_img_1.png">
   <br>
-    <em>Tab 6 after specifying all parameters needed</em>
+    <em>Display of Tab 6 after specifying all parameters needed</em>
 </p>
 
 The trajectory obtained in the previous image is the same as the one obtained in [Example 3 of the sdtDBN webpage](https://ttlion.github.io/sdtDBN/#example-3-getting-an-estimated-trajectory) for subject 3, as all parameters specified are the same.
